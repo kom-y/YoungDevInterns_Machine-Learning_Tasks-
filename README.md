@@ -42,9 +42,5 @@ This ensures the model receives well-prepared input for accurate predictions.
 
 ---
 
-## 🚀 Next Steps
-With the preprocessed data, the next step is to **train the Linear Regression model** using scikit-learn and evaluate its performance using **Mean Squared Error (MSE)**.
 
 
-
-Predicted Sales Revenue: $8750.45
