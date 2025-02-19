@@ -23,7 +23,7 @@ The model helps understand how each factor influences sales and allows users to 
 - **Regression Coefficients:** Show the impact of each feature on sales revenue.
 
 ### **Example Model Output**
-```
+---
 Slope (Ad Spend Impact on Sales): 5.10
 Slope (Social Media Engagement Impact on Sales): 0.78
 Slope (Discounts Impact on Sales): -49.23
@@ -31,7 +31,7 @@ Intercept (Base Sales Without Any Factors): 5030.21
 Enter advertising budget ($): 800
 Enter social media engagement (likes/shares): 3500
 Enter discount percentage offered: 10
-
+---
 #TASK 02
 # Linear Regression Model for Sales Prediction
 
