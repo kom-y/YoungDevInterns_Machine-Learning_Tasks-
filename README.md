@@ -28,9 +28,45 @@ Slope (Ad Spend Impact on Sales): 5.10
 Slope (Social Media Engagement Impact on Sales): 0.78
 Slope (Discounts Impact on Sales): -49.23
 Intercept (Base Sales Without Any Factors): 5030.21
-
 Enter advertising budget ($): 800
 Enter social media engagement (likes/shares): 3500
 Enter discount percentage offered: 10
+
+#TASK 02
+# Linear Regression Model for Sales Prediction
+
+## 📌 Project Overview
+This project implements a **Linear Regression Model** to predict **Sales Revenue** based on three key factors:
+- **Advertising Budget ($)**
+- **Social Media Engagement (likes, shares)**
+- **Discount Percentage Offered (%)**
+
+The model helps understand how each factor influences sales and allows users to input their own values for predictions.
+
+---
+
+## 📂 Project Structure
+
+### 🔄 Data Preprocessing
+Before training the model, the dataset is cleaned and transformed using the following steps:
+- **Handling Missing Values**: Missing numerical values are replaced with the mean.
+- **Feature Scaling**: Numerical features are standardized using `StandardScaler` to improve model performance.
+- **Categorical Encoding**: The `Region` column is one-hot encoded to convert categorical data into numerical format.
+- **Splitting Data**: The dataset is split into **training (80%)** and **testing (20%)** sets to evaluate model accuracy.
+
+### 📊 Processed Data Summary
+After preprocessing, the dataset is transformed into a numerical format, making it suitable for machine learning:
+- **Standardized numerical values**: Adjusts values to a common scale.
+- **One-hot encoded categorical variables**: Converts categories into separate binary columns.
+- **Final shape of the dataset**: Training set contains **6 samples and 7 features**, while the test set contains **2 samples and 7 features**.
+
+This ensures the model receives well-prepared input for accurate predictions.
+
+---
+
+## 🚀 Next Steps
+With the preprocessed data, the next step is to **train the Linear Regression model** using scikit-learn and evaluate its performance using **Mean Squared Error (MSE)**.
+
+
 
 Predicted Sales Revenue: $8750.45
