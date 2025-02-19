@@ -22,7 +22,8 @@ The model helps understand how each factor influences sales and allows users to 
 - **Mean Squared Error (MSE):** Measures how far the predictions deviate from actual values.
 - **Regression Coefficients:** Show the impact of each feature on sales revenue.
 
-#TASK 02
+## TASK 02
+
 ## 📌 Project Overview
 ### 🔄 Data Preprocessing
 Before training the model, the dataset is cleaned and transformed using the following steps:
